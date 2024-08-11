@@ -1,0 +1,104 @@
+@media screen  and (max-width:576px){
+    /* header-content */
+    .hamburger-icon{
+        background-color: red;
+        display: block;
+        margin-top: 10px;
+    }
+    .navbar{
+        display: none;
+    }
+    .header-content{
+        flex-direction: column;
+    }
+
+    .header-left{
+        width: 100%;
+    }
+    header {
+        padding-left: 5px;
+        width: 95%;
+}
+
+.header-content{
+    gap: 40px;
+}
+.header-right{
+    margin-left: 80px;
+}
+/* section-1 */
+.sec1-card{
+    grid-template-columns: repeat(1,1fr);
+}
+/* sec 2 */
+.sec-2{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 40px;
+}
+.sec2-content{
+    width: 100%;
+}
+.sec2-img{
+    width: 100%;
+}
+.sec2-btn{
+    margin-right: 0px;
+}
+/* sec-4 */
+.section-4 {
+    flex-direction: column;
+    padding: 20px 0 20px 20px;
+    gap: 30px;
+}
+table {
+    width: 170%;
+}
+.left>h4{
+    margin-bottom: 20px;
+}
+/* sec-5 */
+.sec5-images{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    gap: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+/* special part */
+.progress-bars {
+    flex-direction: column;
+}
+.progress-item {
+    width: 100%;
+}
+.progress-tracker {
+    padding: 20px 50px 20px 50px;
+}
+
+/* footer */
+.footer{
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns:1fr; 
+    padding: 0 0 0 20px;
+}
+.get-started-1{
+    margin-left: -190px;
+}
+.get-started-2{
+   margin-left: -190px;
+}
+.border{
+    margin: 20px 20px 20px 170px;
+    
+}
+.solid{
+   margin-left: -100px;
+    
+}
+    
+} 
