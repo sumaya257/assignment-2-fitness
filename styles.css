@@ -213,31 +213,6 @@ Font-size:70px;
     margin-right: 240px;
 }
 /* section 3 */
-.section-3{
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-.sec3-img{
-    display: grid;
-    grid-template-columns: repeat(3,1fr) ;
-    margin-top: 20px; 
-}
-.img3-1{
-    width: 240px;
-}
-.img3-2{
-    width: 290px;
-}
-
-.img-3{
-    width:100%;
-    height: 130px;
-}
-.sec3-content{
-    flex-direction: column;
-    gap: 10px;
-}
 
 
 
@@ -252,6 +227,7 @@ Font-size:70px;
 }
 .left>h4{
     margin-bottom: 35px;
+    
 }
 .right>h4{
     margin-bottom: 10px;
@@ -288,11 +264,6 @@ th {
 option{
     background-color: black;
 }
-
-.right{
-    width: 60%;
-}
-
 .bmi-box{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -304,6 +275,9 @@ option{
 }
 .left{
     width: 40%;
+}
+.right{
+    width: 60%;
 }
 .calculate{
     padding-left: 40px;
@@ -351,7 +325,7 @@ option{
 /* Progress Tracker Styles */
 .progress-tracker {
     margin-top: 50px;
-    padding: 20px 50px 20px 50px;
+    padding: 0px 50px 0px 50px;
     background-color: black;
     text-align: center;
 }
@@ -362,19 +336,19 @@ option{
 }
 
 .progress-header p {
-    /* color: #666;
-    font-size: 1.2em; */
     margin-bottom: 30px;
 }
 
 .progress-bars {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .progress-item {
-    width: 25%;
+    width: 23%;
     margin-bottom: 20px;
 }
 
@@ -386,11 +360,12 @@ option{
 }
 
 .progress-bar {
-    width: 100%;
+    width: 75%;
     height: 20px;
     background-color: #ddd;
     border-radius: 10px;
     overflow: hidden;
+    margin-left: 40px;
 }
 
 .progress {

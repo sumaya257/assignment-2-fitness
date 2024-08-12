@@ -18,6 +18,7 @@
     header {
         padding-left: 5px;
         width: 95%;
+        padding: 20px 20px 0 20px;
 }
 
 .header-content{
@@ -48,7 +49,7 @@
 /* sec-4 */
 .section-4 {
     flex-direction: column;
-    padding: 20px 0 20px 20px;
+    padding: 20px 0 20px 30px;
     gap: 30px;
 }
 table {
@@ -56,6 +57,12 @@ table {
 }
 .left>h4{
     margin-bottom: 20px;
+}
+.right{
+    width: 60%;
+}
+.left{
+    width: 50%;
 }
 /* sec-5 */
 .sec5-images{
