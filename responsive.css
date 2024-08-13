@@ -1,7 +1,7 @@
 @media screen  and (max-width:576px){
     /* header-content */
     .hamburger-icon{
-        background-color: red;
+        /* background-color: red; */
         display: block;
         margin-top: 10px;
     }
