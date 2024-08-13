@@ -41,9 +41,12 @@ h2,h4{
 }
 
 /* header part start */
+.hero{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
+
+}
 header {
     /* border: 2px solid red; */
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
     padding-top: 30px;
     padding-left: 150px;
     width: 70%;
